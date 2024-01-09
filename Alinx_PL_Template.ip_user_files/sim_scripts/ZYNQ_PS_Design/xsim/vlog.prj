@@ -1,0 +1,6 @@
+verilog xil_defaultlib --include "D:/Software/Develop/Vivado/Vivado/2020.2/data/xilinx_vip/include" --include "../../../../Template.gen/sources_1/bd/ZYNQ_PS_Design/ipshared/ec67/hdl" --include "../../../../Template.gen/sources_1/bd/ZYNQ_PS_Design/ipshared/da1e/hdl" \
+"../../../bd/ZYNQ_PS_Design/ip/ZYNQ_PS_Design_zynq_ultra_ps_e_0_0/sim/ZYNQ_PS_Design_zynq_ultra_ps_e_0_0_vip_wrapper.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

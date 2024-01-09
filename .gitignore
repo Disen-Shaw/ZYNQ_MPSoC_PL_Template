@@ -1,0 +1,67 @@
+
+*
+!*.md
+!*/
+!.gitignore
+
+#Do NOT ignore VHDL, Verilog, block diagrams or EDIF files.
+!*.vhd
+!*.v
+!*.bd
+!*.edif
+
+#IP files
+!*.xci
+#*.dcp(checkpoint files)
+!*.dcp
+!*.vds
+!*.pb
+
+#All bd comments and layout coordinates are stored within .ui
+!*.ui
+!*.ooc
+
+#System Generator
+#########
+!*.mdl
+!*.slx
+!*.bxml
+
+#Simulation logic analyzer
+#########
+!*.wcfg
+!*.coe
+
+#MIG
+#########
+!*.prj
+!*.mem
+
+#Do NOT ignore *.xpr files
+!*.xpr
+
+#Include *.xml files for 2013.4 or earlier version
+!*.xml
+
+#Do NOT ignore *.xdc files
+!*.xdc
+
+#TCL - files
+#########
+!*.tcl
+
+#Journal - files
+!*.jou
+
+#Reports
+!*.rpt
+!*.txt
+!*.vdi
+
+#C-files
+!*.c
+!*.h
+!*.elf
+!*.bmm
+!*.xmp
+

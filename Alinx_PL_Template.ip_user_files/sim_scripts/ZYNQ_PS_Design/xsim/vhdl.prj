@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../bd/ZYNQ_PS_Design/sim/ZYNQ_PS_Design.vhd" \
+
+nosort
